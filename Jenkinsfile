@@ -16,7 +16,7 @@ pipeline {
         stage('Compilation de checker')
         {
             steps {
-                sh 'export TERM=xterm; make chercker'
+                sh 'export TERM=xterm; make checker'
             }
         }
         stage('Test1')
